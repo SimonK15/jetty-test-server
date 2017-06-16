@@ -5,6 +5,7 @@ Purpose of this project is do deliver a sample webapp which can be used to repro
 Jetty Version: 9.3.6.v20151106
 
 See: https://github.com/eclipse/jetty.project/issues/1627
+
 Refer to the [jetty-users] mailinglist topic 'Jetty LoadTests and no available selectors' for the discussion.
 
 -----------------
@@ -53,7 +54,7 @@ The problem might be that the JDK selector has been closed, or some Jetty compon
 		at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:609)
 		at java.lang.Thread.run(Thread.java:745) 
 
-	4. If you now send another request nothing happens till the client timeout is reached. The request does not seem to reach a worker 		thread.
+	4. If you now send another request nothing happens till the client timeout is reached. The request does not seem to reach a worker thread.
 
 -----------------
 
