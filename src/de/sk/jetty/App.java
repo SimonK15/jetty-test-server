@@ -10,10 +10,6 @@ import io.bootique.Bootique;
 import io.bootique.ConfigModule;
 import io.bootique.jersey.JerseyModule;
 
-/**
- * LogServer module starting point 
- *
- */
 public class App extends ConfigModule
 {
     public static void main( String[] args )
