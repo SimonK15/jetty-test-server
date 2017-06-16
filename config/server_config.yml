@@ -1,0 +1,19 @@
+###############################################################################
+#
+# DEV
+#
+###############################################################################
+
+jetty:
+  
+  context: /    
+
+  connectors:
+  - port: 10001
+
+  compression: false
+  idleThreadTimeout: 60000
+  maxThreads: 21
+  minThreads: 1
+  maxQueuedRequests: 1024
+  sessions: false
