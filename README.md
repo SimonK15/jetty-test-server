@@ -4,7 +4,7 @@ Purpose of this project is do deliver a sample webapp which can be used to repro
 
 Jetty Version: 9.3.6.v20151106
 
-See: <add jetty bug issue url>
+See: https://github.com/eclipse/jetty.project/issues/1627
 Refer to the [jetty-users] mailinglist topic 'Jetty LoadTests and no available selectors' for the discussion.
 
 -----------------
