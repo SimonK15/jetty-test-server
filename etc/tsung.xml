@@ -28,7 +28,7 @@
     <session name="test" probability="100" type="ts_http">
         <for from="1" to="50" incr="1" var="reqNo">
 			<request subst="true">
-				<http url="/test/process" method="POST" version="1.1" contents='{&quot;name&quot;: &quot;test&quot;'>
+				<http url="/test/process" method="POST" version="1.1" contents='{&quot;name&quot;: &quot;test&quot;}'>
 					<http_header name="Content-Type" value="application/json"/>
 				</http>
 			</request>
